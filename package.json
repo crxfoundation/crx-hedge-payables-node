@@ -1,0 +1,17 @@
+{
+  "name": "crx-hedge-payables-node",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hedge BRL and MXN payables with CRX NDFs through the public CRX REST API.",
+  "license": "SEE LICENSE IN LICENSE",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "start": "node hedge.ts"
+  },
+  "dependencies": {
+    "ethers": "6.17.0"
+  }
+}
